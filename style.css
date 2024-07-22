@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: purple;
+    background-color: rgb(236, 93, 93);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,8 +14,8 @@ body{
 }
 
 .container{
-    background-color: white;
-    box-shadow: 0px 2px 10px rgba(255,255,255,0.2);
+    background-color: rgb(163, 163, 163);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
     padding: 10px;
     width: 400px;
     border-radius: 10px;
@@ -25,7 +25,7 @@ h1{
     margin: 10px 0px 0px 0px;
     text-align: center;
     font-size: 25px;
-    color: blueviolet;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
@@ -48,11 +48,11 @@ h1{
 
 #see{
     display: inline-block;
-    color: gray;
+    color: rgb(0, 0, 0);
     margin: auto;
     float: right;
-    margin-top: 10px;
-    margin-right: 40px;
+    margin-top: -40px;
+    margin-right: 50px;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -90,6 +90,11 @@ span{
     font-weight: bold;
 }
 
+input{
+    color: rgb(0, 0, 0);
+    background-color: rgb(163, 163, 163);
+}
+
 input:hover{
-    border-bottom: 5px solid purple;
+    border-bottom: 5px solid rgb(0, 0, 0);
 }
